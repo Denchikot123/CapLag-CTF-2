@@ -185,7 +185,7 @@ def run_remote(host, port):
     s = socket.create_connection((host, port), timeout=10)
 
     recvuntil(s, b">")
-    s.sendall(b"1\n")                              # upload signal file
+    s.sendall(b"1\n")
     recvuntil(s, b"bytes:")
     s.sendall(str(len(payload)).encode() + b"\n")
     recvuntil(s, b"payload:")
@@ -193,7 +193,7 @@ def run_remote(host, port):
 
     time.sleep(0.2)
     recvuntil(s, b">")
-    s.sendall(b"2\n")                               # convert channel
+    s.sendall(b"2\n")
     recvuntil(s, b"channel:")
     s.sendall(b"0\n")
 
@@ -430,7 +430,7 @@ def run_remote(host, port):
     s = socket.create_connection((host, port), timeout=10)
 
     recvuntil(s, b">")
-    s.sendall(b"1\n")                              # upload signal file
+    s.sendall(b"1\n")
     recvuntil(s, b"bytes:")
     s.sendall(str(len(payload)).encode() + b"\n")
     recvuntil(s, b"payload:")
@@ -438,7 +438,7 @@ def run_remote(host, port):
 
     time.sleep(0.2)
     recvuntil(s, b">")
-    s.sendall(b"2\n")                               # convert channel
+    s.sendall(b"2\n")
     recvuntil(s, b"channel:")
     s.sendall(b"0\n")
 
