@@ -1,8 +1,8 @@
-# CapLag-CTF-2 [RUS/ENG]
+# CapLag-CTF-2 The Heart of Sysola [RUS/ENG]
 
 > **Дисклеймер:** баг найден и эксплуатирован самостоятельно; при анализе дизасма и оформлении этого райтапа ***использован ИИ/LLM как помощника***
 
-# BioSignal Relay - pwn writeup
+## BioSignal Relay - pwn writeup
 
 **Категория:** PWN
 
