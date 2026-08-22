@@ -30,7 +30,7 @@ CapLag-CTF-2/
 
 ### 1. Разведка
 
-Начал как обычно:
+Начало:
 
 ```
 file biosignal-relay
